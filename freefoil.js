@@ -157,7 +157,7 @@ readFile = (e) => {
     if (credentialsJson.installed) {
       clientID = credentialsJson.installed.client_id;
       clientSecret = credentialsJson.installed.client_secret;
-      redirectURI = "http://localhost:8080";
+      redirectURI = "http://localhost:55683";
       appType = "Desktop";
       copyStep.style.display = "block";
       generateStep.style.display = "block";
